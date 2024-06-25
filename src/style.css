@@ -1,0 +1,56 @@
+#content{
+    width:max(70%,500px);
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: grey;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.divgrids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.divgrids h1{
+    grid-column: 1/3;
+}
+
+figcaption{
+    font-size: 18px;
+}
+
+button{
+    background-color: #fa7d35;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 0cm;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: #114cee;
+}
+
+nav{
+    background-color: bisque;
+    width: 100vw;
+    text-align: center;
+}
